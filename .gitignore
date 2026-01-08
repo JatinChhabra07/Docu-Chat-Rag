@@ -1,0 +1,14 @@
+# Virtual environment
+ragenv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Uploads & vector DB
+data/uploads/*.pdf
+faiss_index/
+chroma/
