@@ -26,7 +26,7 @@ def answer_question(vectorstore, question:str):
     pages = set()
 
     for doc in docs:
-        page = doc.metadata.get("pages")
+        page = doc.metadata.get("page")
         pages.add(page)
         context+=f"(Page {page}): {doc.page_content}\n\n"
 
