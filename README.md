@@ -15,7 +15,7 @@ source page numbers.
 - FastAPI
 - LangChain
 - FAISS
-- OpenAI Embeddings
+- Ollama Embeddings
 
 ## How to Run
 ```bash
